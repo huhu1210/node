@@ -1,5 +1,16 @@
 # Node.js ChangeLog
 
+## 2016-03-21, Version 5.9.1 (Stable), @evanlucas
+
+### Notable changes
+
+* **contextify**: Fix vm regression introduced in v5.9.0 (Ali Ijaz Sheikh) https://github.com/nodejs/node/pull/5800
+
+### Commits
+
+* [[`c5d83695e1`](https://github.com/nodejs/node/commit/c5d83695e1)] - **contextify**: tie lifetimes of context & sandbox (Ali Ijaz Sheikh) [#5800](https://github.com/nodejs/node/pull/5800)
+
+
 ## 2016-03-16, Version 5.9.0 (Stable), @evanlucas
 
 ### Notable changes
